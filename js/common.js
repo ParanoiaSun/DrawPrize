@@ -7,13 +7,11 @@ function getSum (array) {
 }
 
 function onMouseClick (e) {
-	console.log(isClickOn(e));
 	if(istrue)
 		return;
 
 	if(isClickOn(e)) {
 		var result = randomPrize();
-		console.log(result);
 		switch (result) {
 			case 0 : 
 				tableRotate(252, '恭喜您获得' + prize[0]);
