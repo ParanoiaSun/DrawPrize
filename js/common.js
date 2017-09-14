@@ -31,7 +31,6 @@ function onMouseClick (e) {
 				tableRotate(306, prize[4]);
 				break;
 		}
-		// tableRotate(6, 300, '恭喜您获得1000元理财金!');
 	}
 }
 
